@@ -1,80 +1,92 @@
-body{
-    color:#053742;
-    font-family: arial;
-    max-width: 650px;
-    margin: 0 auto;
-    padding: 0 16px;
-    background: linear-gradient(-30deg,#23a6d5, #ee7752, #e73c7e, #23a6d5, #23d5ab,#FF005C);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+body {
+  color: #053742;
+  font-family: "Kanit", sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background: linear-gradient(
+    -30deg,
+    #23a6d5,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab,
+    #ff005c
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.main-content{
-    flex-grow: 1;
+.main-content {
+  flex-grow: 1;
 }
 
-footer{
-   color: #E8F0F2;
-   border-top: 1px solid #eeeeee;
-   margin-top: 16px;
-   padding: 16px 0;
-   text-align: center;
+footer {
+  color: #e8f0f2;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+  text-align: center;
 }
 
-.info{
-    text-align: center;
-    font-size: 25px;
+.info {
+  text-align: center;
+  font-size: 25px;
 }
-header{
-    margin-top: 16px;
-    margin-bottom: 48px;
-    display: flex;
-    justify-content: center;
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
 }
-form{
-    display: flex;
-    justify-content: center;
+form {
+  display: flex;
+  justify-content: center;
 }
-h1{
-    font-size: 100px;
-    margin-bottom: 16px;
-    text-align: center;
+h1 {
+  font-size: 100px;
+  margin-bottom: 16px;
+  text-align: center;
 }
-header a{
-    color: #000;
-    margin-right: 16px;
-    text-decoration: none;
+header a {
+  color: #053742;
+  margin-right: 16px;
+  text-decoration: none;
+  transition: all ease-in-out 300ms;
+}
+header a:hover {
+  color: #fff;
 }
 
-.portrait{
-    width: 250px;
-    border-radius: 10px;
+.portrait {
+  width: 250px;
+  border-radius: 10px;
 }
-.abt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.abt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.abt p{
-    font-size: 20px;
+.abt p {
+  font-size: 20px;
 }
-input{
+input {
   border: 1px solid #cccccc;
   padding: 10px;
   width: 240px;
@@ -82,38 +94,40 @@ input{
   margin-top: 10px;
 }
 
-button{
+button {
   cursor: pointer;
-  background: #54E346;
-  border: 1px solid #007965 ;
+  background: #54e346;
+  border: 1px solid #007965;
   color: #000;
   padding: 8px;
   border-radius: 10px;
   margin-left: 4px;
   margin-top: 10px;
   border: 1px solid #000;
+  transition: all ease-in-out 300ms;
 }
-button:hover{
-    background: #28DF99;
+button:hover {
+  background: #28df99;
 }
-#message-1,#message-2{
-    text-align: center;
-    margin-top: 20px;
+#message-1,
+#message-2 {
+  text-align: center;
+  margin-top: 20px;
 }
-.help{
-    text-align: center;
+.help {
+  text-align: center;
 }
-.links{
-    text-align: center;
-    margin-top: 40px;
+.links {
+  text-align: center;
+  margin-top: 40px;
 }
-.links a{
-    margin-right: 20px;
-    text-decoration: none;
-    color: #0A1931;
-    font-size: 35px;
-    transition: all ease-in-out 400ms;
+.links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #0a1931;
+  font-size: 35px;
+  transition: all ease-in-out 400ms;
 }
-.links a:hover{
-    color: #fff;
+.links a:hover {
+  color: #fff;
 }
